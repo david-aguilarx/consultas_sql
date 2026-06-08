@@ -4,7 +4,7 @@ Práctica de 20 consultas SQL sobre la base de datos `accommodations_tourism`.
 
 ## Motor de base de datos
 
-**PostgreSQL 16**
+**PostgreSQL 18**
 
 ## Archivo de consultas
 
@@ -36,10 +36,3 @@ accommodations_tourism
 └── staff_users          — Usuarios del sistema (recepcionistas, managers, etc.)
 ```
 
-### Relaciones principales
-
-- Un `owner` puede tener muchos `accommodations`
-- Un `accommodation` pertenece a una `location` y un `accommodation_type`
-- Una `booking` vincula un `guest` con un `accommodation`
-- Un `booking` puede tener múltiples `payments` y una `review`
-- Un `accommodation` puede tener múltiples `rooms` y `amenities`
