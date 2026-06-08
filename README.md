@@ -4,7 +4,7 @@ Práctica de 20 consultas SQL sobre la base de datos `accommodations_tourism`.
 
 ## Motor de base de datos
 
-**PostgreSQL 18**
+**PostgreSQL 18.4**
 
 ## Archivo de consultas
 
